@@ -1,0 +1,49 @@
+
+.footer{
+    width: 100%;
+    background-color:#222;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    z-index: 1000;
+
+}
+
+.logo-footer{
+    font-size: 24px;
+    color: black;
+    -webkit-text-stroke: 0.1px white;
+    text-align: center;
+    cursor: default;
+    padding: 2rem;
+}
+
+.comment-footer{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.lowerSection-footer{
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.licence-footer{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links-footer a{
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
