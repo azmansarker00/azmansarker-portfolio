@@ -19,7 +19,6 @@ function App() {
       <HomeMenu/>
       <Navbar2/>
       <Text1 />
-
       <About />
 
 
