@@ -15,14 +15,15 @@
     -webkit-text-stroke: 0.1px white;
     text-align: center;
     cursor: default;
-    padding: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .comment-footer{
     text-align: center;
     color: white;
-    margin-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1rem;
 
 }
 

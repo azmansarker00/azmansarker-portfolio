@@ -62,7 +62,7 @@ function Navbar() {
         </span>
         <span>
           <Link to="about" spy={true} smooth={true} offset={-60} duration={3000}>
-            ABOUT ME
+            ABOUT
           </Link>
         </span>
         <span>
