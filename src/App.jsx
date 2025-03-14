@@ -1,5 +1,6 @@
 import React from 'react'
 import "./App.css"
+import { useEffect } from "react";
 import Navbar1 from './components/header/nav1/navbar.jsx'
 import HomeMenu from './components/main_body/home_menu/homeMenu.jsx'
 import Navbar2 from './components/header/nav2/navbar.jsx'
@@ -12,6 +13,10 @@ import About from "./components/main_body/hero/aboutme/about.jsx"
 // import Footer from './components/footer/footer.jsx'
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
   return (
     <>
