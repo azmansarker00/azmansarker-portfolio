@@ -66,6 +66,11 @@ function Navbar() {
           </Link>
         </span>
         <span>
+          <Link to="project" spy={true} smooth={true} offset={-60} duration={3000}>
+            PROJECTS
+          </Link>
+        </span>
+        <span>
           <Link to="contact" spy={true} smooth={true} offset={-60} duration={3000}>
             CONTACT
           </Link>

@@ -1,0 +1,14 @@
+.rollingText{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+.rollingText h3{
+    color: white;
+    font-size: 2rem;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateX(-115%);
+    white-space: nowrap;
+    letter-spacing: 3px;
+}

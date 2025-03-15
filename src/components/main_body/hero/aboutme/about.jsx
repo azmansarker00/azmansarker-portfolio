@@ -31,7 +31,7 @@ function about() {
       delay: 1,
       scrollTrigger: {
         trigger: "#about .about-containers .about-about",
-        start: "top 85%",
+        start: "top 90%",
         end: "bottom 20%",
         toggleActions: "play none none none",
         scrub: 1,
@@ -47,7 +47,7 @@ function about() {
       delay: 1,
       scrollTrigger: {
         trigger: "#about .about-containers .about-skills",
-        start: "top 85%",
+        start: "top 90%",
         end: "bottom 20%",
         toggleActions: "play none none none",
         scrub: 1,
@@ -63,7 +63,7 @@ function about() {
      
       scrollTrigger: {
         trigger: "#about .about-containers .about-experience",
-        start: "top 85%",
+        start: "top 90%",
         end: "bottom 20%",
         toggleActions: "play none none none",
         scrub: 1,
