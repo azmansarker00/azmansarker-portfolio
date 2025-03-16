@@ -1,14 +1,26 @@
-.rollingText{
-    width: 100%;
-    background-color: rgb(12, 12, 12);
+.rollingText {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgba(255, 255, 255, 0.493);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.493);
 }
 
-.rollingText h3{
-    color: white;
-    font-size: 2rem;
-    padding: 20px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transform: translateX(-115%);
-    white-space: nowrap;
-    letter-spacing: 3px;
+.rollingText h3:nth-child(1) {
+  color: white;
+  font-size: 2rem;
+  padding: 20px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transform: translateX(-3560%);
+  white-space: nowrap;
+  letter-spacing: 3px;
+}
+
+.rollingText h3:nth-child(2) {
+  color: white;
+  font-size: 2rem;
+  padding: 20px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transform: translateX(104%);
+  white-space: nowrap;
+  letter-spacing: 3px;
 }

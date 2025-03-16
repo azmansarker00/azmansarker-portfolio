@@ -11,28 +11,27 @@ function about() {
     gsap.from("#about h1", {
       y: -50,
       opacity: 0,
-      duration: 2,
       ease: "back.out(1.7)",
+      duration: 1,
       delay: 0.5,
       scrollTrigger: {
         trigger: "#about h1",
-        start: "top 90%",
-        end: "bottom 20%",
+        start: "top 40%",
+        end: "bottom 80%",
         toggleActions: "play none none none",
         scrub: 1,
       },
     });
 
     gsap.from("#about .about-containers .about-about", {
-      x: -50,
+      x: -100,
       opacity: 0,
-      duration: 2,
+      duration: 1,
       ease: "back.out(1.7)",
-      delay: 1,
       scrollTrigger: {
         trigger: "#about .about-containers .about-about",
-        start: "top 90%",
-        end: "bottom 20%",
+        start: "top 85%",
+        end: "bottom 100%",
         toggleActions: "play none none none",
         scrub: 1,
 
@@ -40,31 +39,29 @@ function about() {
     });
 
     gsap.from("#about .about-containers .about-skills", {
-      y: 50,
+      y: 100,
       opacity: 0,
-      duration: 2,
+      duration: 1,
       ease: "back.out(1.7)",
-      delay: 1,
       scrollTrigger: {
         trigger: "#about .about-containers .about-skills",
-        start: "top 90%",
-        end: "bottom 20%",
+        start: "top 85%",
+        end: "bottom 100%",
         toggleActions: "play none none none",
         scrub: 1,
+        
       },
     });
 
     gsap.from("#about .about-containers .about-experience", {
-      x: 50,
+      x: 100,
       opacity: 0,
-      duration: 2,
       ease: "back.out(1.7)",
-      delay: 1,
-     
+      duration: 1,
       scrollTrigger: {
         trigger: "#about .about-containers .about-experience",
-        start: "top 90%",
-        end: "bottom 20%",
+        start: "top 85%",
+        end: "bottom 100%",
         toggleActions: "play none none none",
         scrub: 1,
 

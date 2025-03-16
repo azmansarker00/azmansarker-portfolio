@@ -1,6 +1,12 @@
 import React from 'react'
+
+// CSS
 import "./App.css"
+
+// React Router
 import { useEffect } from "react";
+
+// Components
 import Navbar1 from './components/header/nav1/navbar.jsx'
 import HomeMenu from './components/main_body/home_menu/homeMenu.jsx'
 import Navbar2 from './components/header/nav2/navbar.jsx'
@@ -21,12 +27,23 @@ function App() {
   return (
     <>
       <Navbar1/>
+
       <HomeMenu/>
+
       <Navbar2/>
+
       <Text1 />
-      <About />
+
       <RollingText />
+
+      <About />
+
+      <RollingText />
+
       <Contact />
+
+      <RollingText />
+      
       <Footer />
     </>
   )
