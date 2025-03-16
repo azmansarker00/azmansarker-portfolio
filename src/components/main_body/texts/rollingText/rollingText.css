@@ -24,3 +24,12 @@
   white-space: nowrap;
   letter-spacing: 3px;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+  .rollingText{
+      display: none;
+  }
+}
+

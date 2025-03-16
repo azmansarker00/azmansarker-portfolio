@@ -40,3 +40,11 @@
 .links-nav2 a:hover{
     color: white;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .container-nav2{
+        display: none;
+    }
+  }
+

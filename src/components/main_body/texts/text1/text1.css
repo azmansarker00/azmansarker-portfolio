@@ -19,3 +19,11 @@
     padding: 0 250px;
     margin-top: 160px;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .text1Container{
+        display: none;
+    }
+  }
+

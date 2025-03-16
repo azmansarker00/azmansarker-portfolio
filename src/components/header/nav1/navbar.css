@@ -22,3 +22,12 @@
     -webkit-text-stroke: 1px white;
     cursor: default;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .container-nav1{
+        display: none;
+    }
+  }
+
